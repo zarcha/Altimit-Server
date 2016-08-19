@@ -30,9 +30,16 @@ Step 1: Import the AltimitNetwork package into your project.
 
 Step 2: Create a new C# script. This will be the network manager.
 
-Step 3: Type "using Altimit;" under the other using's.
+Step 3: Type this under the other using's.
+```javascript 
+using Altimit; 
+``` 
 
-Step 4: Type "AltimitNetwork.Connect("127.0.0.1", 1025);". When ran the connection will start. Currently there is a little pause when connecting (due to threading hold-up. Should be fixed soon).
+Step 4: Type this:
+```javascript 
+"AltimitNetwork.Connect("127.0.0.1", 1025);". 
+``` 
+When ran the connection will start. Currently there is a little pause when connecting (due to threading hold-up. Should be fixed soon).
 
 
 
