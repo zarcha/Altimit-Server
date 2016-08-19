@@ -1,0 +1,22 @@
+<button type="button" class="btn btn-default refreshBtn" ng-click="Ctrl.getUserList()">Refresh</button>
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Username</th>
+      <th>Room</th>
+      <th>UUID</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat="x in Ctrl.userList">
+      <td class="col-sm-1">{{x.id}}</td>
+      <td class="col-sm-3">{{x.username}}</td>
+      <td class="col-sm-4">{{x.roomName}}</td>
+      <td class="col-sm-3">{{x.uuid}}</td>
+      <td class="col-sm-1"><button type="button" class="btn btn-default" ng-click="Ctrl.kickPlayer(x.uuid)">Kick</button></td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<button type="button" class="btn btn-default refreshBtn" ng-click="Ctrl.getRoomList()">Refresh</button>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Owner Id</th>
+    <th>Max Users</th>
+    <th>User Count</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr ng-repeat="(key, value) in Ctrl.roomList">
+    <td class="col-sm-8">{{key}}</td>
+    <td class="col-sm-1">{{value.ownerId}}</td>
+    <td class="col-sm-1">{{value.max_users === -1 ? "N/A" : value.max_users}}</td>
+    <td class="col-sm-1">{{Ctrl.getLength(value.users)}}</td>
+    <td class="col-sm-1"><button type="button" class="btn btn-default" ng-click="">Delete</button></td>
+  </tr>
+  </tbody>
+</table>
