@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Altimit_Hazelcast:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Altimit_Hazelcast_jar</output-path>
+    <root id="archive" name="Altimit_Hazelcast.jar">
+      <element id="module-output" name="Altimit_Hazelcast" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/hazelcast-3.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

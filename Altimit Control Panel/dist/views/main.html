@@ -1,0 +1,16 @@
+<div ng-hide="Ctrl.makeCalls" class="alert alert-danger fade in statusAlert">
+  <a class="close" data-dismiss="alert" aria-label="close">&times;</a>
+  <strong>Server Offline!</strong>
+</div>
+
+<div class="panel panel-default statusAlert">
+  <div class="panel-body">Server Status: {{Ctrl.serverStatus}}</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">User Count: {{Ctrl.userCount}}</div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-body">Room Count: {{Ctrl.roomCount}}</div>
+</div>

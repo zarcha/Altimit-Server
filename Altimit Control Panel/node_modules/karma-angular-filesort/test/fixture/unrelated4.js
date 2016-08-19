@@ -1,0 +1,1 @@
+angular.copy({usesAngular: 'butDoesntReferenceModules'});
