@@ -37,7 +37,7 @@ using Altimit;
 
 Step 4: Type this:
 ```javascript 
-"AltimitNetwork.Connect("127.0.0.1", 1025);". 
+AltimitNetwork.Connect("127.0.0.1", 1025);. 
 ``` 
 When ran the connection will start. Currently there is a little pause when connecting (due to threading hold-up. Should be fixed soon).
 
