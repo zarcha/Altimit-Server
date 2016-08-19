@@ -1,4 +1,4 @@
-# Altimit-Server
+# Altimit-Server - v0.8.0
 Open source Java server and C# Unity Client
 
 Running Server:
