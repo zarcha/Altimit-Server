@@ -2,7 +2,7 @@
 Open source Java server and C# Unity Client
 
 Running Server:
-
+---
 Step 1: Open a cmd/terminal in this folder.
 
 Step 2: Type "java -jar Altimit_Hazelcast.jar" and press Enter. Hazelcast will start up.
@@ -14,9 +14,10 @@ Step 4: Type "java -jar Altimit_Server.jar" and press Enter. The Server will run
 
 The server runs on the defualt port of 1025. This can currently only be changed in the server code within the Main thread where StartServer method is called.
 
-//NOTE: This will change in the future to just work when the server is ran. Sorry for the trouble.
 
 Running Control Panel:
+---
+//NOTE: This will change in the future to just work when the server is ran. Sorry for the trouble.
 
 Step 1: Install a web server application that will work with javascript.
 
@@ -36,7 +37,7 @@ Step 4: Type "AltimitNetwork.Connect("127.0.0.1", 1025);". When ran the connecti
 
 
 Known Issues:
-
+---
 1) Pause when starting connection (Compiling the list of RPC mothods does this)
 
 2) Everything is threaded so methods that are called from the server or called methods running other methods will not work with unity specific thigns like spawning of items since that needs to happen on the main thread. This will be fixed when AltimitView is done and has Altimit.RPC feature in.
