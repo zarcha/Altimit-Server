@@ -1,6 +1,10 @@
 # Altimit-Server - v0.8.0
 Open source Java server and C# Unity Client
 
+A Java doc folder is included for details on each function in the server. Just open the index.html file in an internet browser. 
+
+Almost all client mehtods are commented with summarys for details on what they do.
+
 Running Server:
 ---
 Step 1: Open a cmd/terminal in this folder.
